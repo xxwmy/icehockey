@@ -1,0 +1,340 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.imformation_html{
+	height:100%;
+}
+
+.div1cs{
+	font-size:12px;
+	text-align:center;
+	color:white;
+	background:black;
+	position:absolute;
+	height: 40%;
+	width:100%;
+}
+
+.button_setting{
+	border:none;
+	background:url(../../images/gear.png) center center no-repeat;
+	background-size:cover;
+	position:absolute;
+	left:20px;
+	top:10px;
+	width:30px;
+	height:30px;
+	
+}
+.button_bell{
+	border:none;
+	background:url(../../images/bell27.png) center center no-repeat;
+	background-size:cover;
+	position:fixed;
+	top:10px;
+	right:20px;
+	width:30px;
+	height:30px;
+}
+#man{
+	display: flex;
+	-webkit-flex-direction: column;
+
+	position: absolute;
+	left:50px;
+	width:40%;
+	height:20%;
+	
+}
+#shoumenyuan{
+	display: flex;
+	-webkit-flex-direction: column;
+
+	position: absolute;
+	width:40%;
+	top:60%;
+	left:50px;
+	
+}
+.list2{
+	list-style:none;
+	color:white;
+	position:absolute;
+	left:60%;
+	top:80px;
+}
+.grad{
+	background: linear-gradient(to right,orange, black);
+	background-size:cover;
+}
+.button_zoushougan{
+	
+	border:none;
+	background:url(../../images/zuoshougan.png) center center no-repeat;
+	background-size:cover;
+	position:absolute;
+	left:60%;
+	top:180px;
+	width:30px;
+	height:30px;
+}
+.button_xiehui{
+	border:none;
+	background:url(../../images/xiehui.png) center center no-repeat;
+	background-size:cover;
+	position:absolute;
+	left:70%;
+	top:180px;
+	width:30px;
+	height:30px;
+}
+.button_plus{
+	border:none;
+	background:url(../../images/plus.png) center center no-repeat;
+	background-size:cover;
+	position:absolute;
+	left:80%;
+	top:180px;
+	width:30px;
+	height:30px;
+}
+.button_invite{
+	color:white;
+	border:none;
+	background:transparent;
+	position:absolute;
+	left:0px;
+	width:30%;
+	top:215px;
+}
+.button_Follow{
+	color:white;
+	border:none;
+	background:transparent;
+	position:absolute;
+	left:30%;
+	width:30%;
+	top:215px;
+}
+.button_Fans{
+	color:white;
+	border:none;
+	background:transparent;
+	position:absolute;
+	left:70%;
+	top:215px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+.list{
+	text-indent: 2rem;
+	background: url(../../images/lock-screen-background.png)center center no-repeat;
+	background-size: 100%,100%;
+	width:100%;
+	height:80%;
+	color:white;
+	list-style:none;
+	position:absolute;
+	
+	line-height: 2rem;
+	top:40%;
+	
+}
+.button_next1{
+	border:none;
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:0.5rem;
+	right:50px;
+}
+.button_next2{
+	border:none;
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:2.5rem;
+	right:50px;
+	
+	
+}
+.button_next3{
+	border:none;
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:4.5rem;
+	right:50px;
+}
+.button_next4{
+	border:none;
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:6.5rem;
+	right:50px;
+	
+}
+.button_next5{
+	border:none;
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:8.5rem;
+	right:50px;
+	
+}
+.button_next6{
+	border:none;
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:10.5rem;
+	right:50px;
+	
+}
+.button_next7{
+	border:none;
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:12.5rem;
+	right:50px;
+	
+}
+.div2cs{
+	background:white;
+	position:fixed;
+	top:80%;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+
+/*.button_main{
+	border: none;
+	position:fixed;
+	top:82%;
+	left:0px;
+	width:50px;
+	height:50px;
+}
+.button_Schedule{
+	border:none;
+	position:fixed;
+	top:82%;
+	left:60px;
+	width:50px;
+	height:50px;
+}
+.button_Tools{
+	border:none;
+	position:fixed;
+	top:82%;
+	left:120px;
+	width:50px;
+	height:50px;
+}
+.button_Community{
+	border:none;
+	position:fixed;
+	top:82%;
+	left:180px;
+	width:50px;
+	height:50px;
+}
+.button_Massages{
+	border:none;
+	position:fixed;
+	top:82%;
+	left:240px;
+	width:50px;
+	height:50px;
+}
+.button_Myself{
+	border:none;
+	position:fixed;
+	top:82%;
+	left:300px;
+	width:50px;
+	height:50px;
+}*/
+.div_game{
+	display: none;
+}
+.div_game.active{
+	background: green;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+/*工具箱样式*/
+.div_tool{
+	display: none;
+}
+.div_tool.active{
+	background: green;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+/*社区样式*/
+.div_club{
+	display: none;
+}
+.div_club.active{
+	background: gold;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+/*消息样式*/
+.div_info{
+	display: none;
+}
+.div_info.active{
+	background: greenyellow;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+/*我的样式*/
+.div_mine{
+	display: none;
+}
+.div_mine.active{
+	background: red;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+
+
+/*底部样式*/
+.main-bottom{
+	position: fixed;
+	top:90%;
+	left:0px;
+	bottom:0;
+	display: -webkit-flex;
+	font-size: 1rem;
+	height: 4.3rem;
+	background: rgb(216,215,213);
+	width: 100%;
+}
+.main-bottom div{
+	text-align: center;
+	padding: 0.3rem 0;
+}
+.main-bottom img{
+	width: 50%;
+	text-align: center;
+}
+.main-bottom span{
+	display: block;
+}

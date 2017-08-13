@@ -1,0 +1,48 @@
+@charset "utf-8";
+.button_helmet{
+	color:white;
+	background:transparent;
+	border:none;
+	position:fixed;
+	top:100px;
+	left:60px;
+	
+}
+.button_shoes{
+	color:white;
+	background:transparent;
+	border:none;
+	position:fixed;
+	top:130px;
+	left:60px;
+}
+.button_neckpro{
+	color:white;
+	background:transparent;
+	border:none;
+	position:fixed;
+	top:160px;
+	left:60px;
+}
+.button_leg{
+	color:white;
+	background:transparent;
+	border:none;
+	position:fixed;
+	top:190px;
+	left:60px;
+}
+.button_others{
+	color:white;
+	background:transparent;
+	border:none;
+	position:fixed;
+	top:220px;
+	left:60px;
+}
+#myequipment{
+	color:white;
+	position:absolute;
+	top:10%;
+	left:50px;
+}

@@ -1,0 +1,57 @@
+.height_image{
+	position:absolutoin;
+	margin-top:15%;
+}
+
+.text p{
+	color: #fff;
+    text-shadow:none !important;
+    font-size: 1.7rem;
+	
+}
+
+.height{
+	text-align: center;
+	font-size: 1.3rem;
+	
+}
+
+.height span{
+	color: #fff;
+}
+
+.btn{
+	border-radius: 2rem !important;
+	width: 80%;
+	
+    min-height: 3em;
+
+    
+}
+
+.back{
+	background: transparent! important;
+	 text-shadow:none !important;
+    color: #fff;
+}
+
+.back span{
+	color: #fff;
+	text-shadow:none !important;
+	margin: 0 2rem;
+	
+}
+
+.next{
+	background: transparent! important;
+	 text-shadow:none !important;
+	   color: #fff;
+	
+}
+
+.next span{
+	color: #fff;
+	text-shadow:none !important;
+	margin: 0 2rem;
+	
+}

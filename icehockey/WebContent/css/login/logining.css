@@ -1,0 +1,63 @@
+.main{
+	background-image: url(../../images/login.png);
+	background-size: 100% 100%;
+	height: 100%;
+	margin: 0 !important;
+	display: flex;	/*弹性布局，子元素的float失效*/
+	flex-direction: column;/*定义主轴竖，默认横*/
+	-webkit-flex-direction: column;/*伸缩容器的主轴的方向row row-reverse column column-reverse*/	
+   background-repeat:no-repeat;/*背景固定*/
+   background-attachment:fixed
+}
+
+.btn { 
+    position: fixed;/*以窗口为参考点*/
+  	bottom: 6%; 
+  	padding: 0em;/*这个div的内边距，可以去掉*/
+	width: 90%; 
+}
+
+.btn img{
+	position: absolute;
+	bottom: 2%;
+	left: 30%;
+	/*position: relative; 这样定位之后元图存在会使上下边框变宽
+	left:5%;
+	top: 1rem;
+	*/
+}
+
+.btn span{
+	position: relative;
+	left: 10%; /*右移*/
+	text-shadow:none !important;
+	text-decoration: none;/*下划线*/
+	font-family: '宋体';	
+}
+
+.buttonone{
+	background-color: #6bbd65 !important;/*背景颜色*/
+	border-radius: 2rem !important;/*圆角*/
+	color: #fff !important;/*按钮里面字体颜色*/
+	padding: 0rem;
+}
+
+.buttontwo{
+	background-color: #1F1F1F!important;
+	border-radius: 2rem !important;
+	color: #fff !important;
+	text-shadow:none !important;/*字体阴影*/
+	font-family: '宋体';
+}
+
+
+/*跳转页样式
+ .wait{
+	width:100%;
+	height:100%;
+	background:url(../../images/wait.png) center center no-repeat;
+	background-size:cover;
+	}
+ 
+ * 
+ * */

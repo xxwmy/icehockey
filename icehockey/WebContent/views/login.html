@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>登录页面</title>
+		<link rel="stylesheet" href="../css/login/login.css" />
+		<link rel="stylesheet" href="../css/jqueryMobile/jquery.mobile-1.4.5.min.css"/>
+		<script src="../js/jQuery/jquery-2.2.3.min.js"></script>
+		<script src="../js/jqueryMobile/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+
+	<body>
+		<!--	屏幕适配
+        -->
+		<script>
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 16 * (clientWidth / 720) + 'px';
+					};
+
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+		<!--
+ * .submitBtn
+ * #phoneNumber
+ * #verificationCode
+        -->
+		  
+		<div data-role="page" class="main">
+		    <div data-role="content">		
+				<div class="top">
+					<a href="#" onClick="javascript :history.back(-1);" data-ajax="false"></a>
+					<span >账号登录</span>
+				</div>
+
+				<div >
+					<input type="text" data-role='none' class="phoneNumber" placeholder="输入注册时的手机号" id="phoneNumber"/>	
+				</div>
+				
+				
+				<div class="yanBtn">
+					<input type="text" data-role='none' class="verificationCode" placeholder="输入验证码" id="verificationCode"/>
+					<a href="#" data-role="button"  class="getCode"><span >获取验证码</span></a>
+				</div>
+				
+				<div >
+					<input type="submit" data-role='none' value="登录"   class="submitBtn"></input>
+				</div>
+            	     
+			    <div class="errorBtn">
+            	    <a href="error.html"  data-ajax="false" style="text-decoration: none;"> 登录遇到问题</a>
+                </div>
+					
+					
+					
+				<div class="loginOther">
+					<span>推荐登录</span>
+				</div>
+				
+				<div class="loginList">
+					<a href="" class="weixin" data-ajax="false"><img src="../images/login/qq.png"/></a>
+					<a href="" class="weibo" data-ajax="false"><img src="../images/login/weibo.png"/></a>
+					<a href="" class="qq" data-ajax="false"><img src="../images/login/weixin.png"/></a>
+				</div>	
+				
+		    </div>
+        </div>
+		<script src="../js/common/common.js"></script>
+		<script src="../js/urlApi/api.js"></script>
+		<script src="../js/login/login.js"></script>
+	</body>
+
+</html>

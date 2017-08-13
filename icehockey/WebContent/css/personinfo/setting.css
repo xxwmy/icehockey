@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body{
+	
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	
+	
+	background-size:10000px 10000px;
+	
+}
+.p1{
+	font-size:18px;
+	color:white;
+	position:fixed;
+	left:80px;
+	top:20px;
+}
+.button_back{
+	background:url(../../images/back.png) center center no-repeat;
+	background-size:cover;
+	border:none;
+	width:20px;
+	height:20px;
+	position:fixed;
+	left:40px;
+	top:35px;
+}
+.button_connect{
+	color:white;
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	background:-size:cover;
+	border:none;
+	position:fixed;
+	top:80px;
+	left:60px;
+}
+.button_help{
+	color:white;
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	background:-size:cover;
+	border:none;
+	position:fixed;
+	top:120px;
+	left:60px;
+}
+.button_protocol{
+	color:white;
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	background:-size:cover;
+	border:none;
+	position:fixed;
+	top:160px;
+	left:60px;
+}
+.button_about{
+	color:white;
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	background:-size:cover;
+	border:none;
+	position:fixed;
+	top:200px;
+	left:60px;
+}
+.button_clean{
+	color:white;
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	background:-size:cover;
+	border:none;
+	position:fixed;
+	top:240px;
+	left:60px;
+}
+.button_update{
+	color:white;
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	background:-size:cover;
+	border:none;
+	position:fixed;
+	top:280px;
+	left:60px;
+}
+.button_security{
+	color:white;
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	background:-size:cover;
+	border:none;
+	position:fixed;
+	top:320px;
+	left:60px;
+}
+.button_exit{
+	color:white;
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	background:-size:cover;
+	border:none;
+	position:fixed;
+	top:360px;
+	left:60px;
+}

@@ -1,0 +1,56 @@
+@charset "utf-8";
+body{
+	
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	
+	
+	background-size:10000px 10000px;
+	
+}
+.p1{
+	font-size:18px;
+	color:white;
+	position:fixed;
+	left:80px;
+	top:20px;
+}
+.button_back{
+	background:url(../../images/back.png) center center no-repeat;
+	background-size:cover;
+	border:none;
+	width:20px;
+	height:20px;
+	position:fixed;
+	left:40px;
+	top:35px;
+}
+.button_weixin{
+	background:url(../../images/weixin.png) center center no-repeat;
+	background-size:cover;
+	border:none;
+	width:50px;
+	height:50px;
+	position:fixed;
+	left:50px;
+	top:100px;
+}
+.button_qq{
+	background:url(../../images/qq.png) center center no-repeat;
+	background-size:cover;
+	border:none;
+	width:50px;
+	height:50px;
+	position:fixed;
+	left:150px;
+	top:100px;
+}
+.button_weibo{
+	background:url(../../images/weibo.png) center center no-repeat;
+	background-size:cover;
+	border:none;
+	width:50px;
+	height:50px;
+	position:fixed;
+	left:250px;
+	top:100px;
+}

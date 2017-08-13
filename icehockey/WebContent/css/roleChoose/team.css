@@ -1,0 +1,23 @@
+.main{
+	background-image:url(../../images/hobbyChoose/lock-screen-background.png) ;
+	background-size:100% 100%;
+	height: 100%;
+	margin: 0!important;
+}
+.top img{
+	float: left;
+	margin: 2rem 0;
+	width: 2rem;
+	height: 2rem;
+}
+
+.top span{
+	color: rgb(178,196,202);
+	float: left;
+	margin: 1rem 3rem;
+	font-size: 3rem;
+	
+}
+
+
+

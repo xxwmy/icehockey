@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>我的中心</title>
+<link rel="stylesheet" href="../css/personinfo/essentiainfo.css">
+<script type="text/javascript" src="../js/jQuery/jquery-3.2.1.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var urlUserId=comm.getUrlParameter("userid");
+  $(".button_back").click(function(){
+    window.location.href="../views/imformation.html?userid="+urlUserId;
+  });
+});
+</script>
+</head>
+<body>
+<h1 class="p1">基本信息</h1>
+<input type="button" class="button_back" value="">
+<ul class="listul">
+	<li id="userName1"></li>
+	<li id="usersex1"></li>
+	<li id="birthday1"></li>
+	<li id="usercountry1"></li>
+	<li id="usercity1"></li>
+	<li id="userbody1"></li>
+	<li id="userplay1"></li>
+	<li id="userice_play1"></li>
+	<li id="usersnow_play1"></li>
+	<li id="userroleId1"></li>
+	<li id="userhandlingId1"></li>
+</ul>
+</body>
+<script src="../js/urlApi/api.js"></script>
+	<script src="../js/common/common.js" type="text/javascript"></script>
+	<script src="../js/pageJS/myEssentialInfo.js" type="text/javascript"></script>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>error</title>
+	    
+	    <link  href="../css/login/error.css" rel="stylesheet" type="text/css" />
+	    <link rel="stylesheet" href="../css/jqueryMobile/jquery.mobile-1.4.5.min.css"/>
+		<script src="../js/jQuery/jquery-2.2.3.min.js"></script>
+		<script src="../js/jqueryMobile/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+
+
+	<body>
+		<script>
+		    (function(doc, win) {
+		        var docEl = document.documentElement,
+		            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		            recalc = function() {
+		                var clientWidth = docEl.clientWidth;
+		                if(!clientWidth) return;
+		                docEl.style.fontSize = 16 * (clientWidth / 720) + 'px';
+		            };
+		        if(!document.addEventListener) return;
+		        window.addEventListener(resizeEvt, recalc, false);
+		        document.addEventListener('DOMContentLoaded', recalc, false);
+		    })(document, window);
+		</script>
+		
+		
+		<div data-role="page" class="main">
+			<div data-role="content">
+				<div class="error-header">
+					<a href="#" onClick="javascript :history.back(-1);" data-ajax="false"></a>
+					<span>登录遇到问题</span>
+				</div>
+			</div>
+			
+			<div class="content-error">	    
+					<div>请选择遇到的问题(必填)</div>
+			</div>
+				
+				
+			 <div class="problem" >	
+			 	<div  >
+			 		<input type="radio" data-role='none' name="error"  value="无登录记录" class="checkboxBtn" checked="checked"/> 无登录记录
+			 	</div>
+		  		<div >
+		  			<input type="radio" data-role='none' name="error"  value="手机收不到验证码" class="checkboxBtn" /> 手机收不到验证码
+		  		</div>
+		  		<div>
+		  			<input type="radio" data-role='none' name="error"  value="其它或注册问题"class="checkboxBtn" /> 其它或注册问题
+		  		</div>
+			 </div>
+				
+			 <div>
+				<!--使用 <textarea> 来实现多行文本输入。--> 
+				<textarea rows="5"name="" id="" class="errorMain" placeholder="请简要说明" data-role="none"></textarea>
+		        <input type="text" class="phone" placeholder="你的联系方式：手机号或邮箱" data-role="none"></input>	
+			</div>
+			
+			<div >
+				<input type="submit"  class="error-submit" data-role="none"/>
+		    </div>
+			
+		</div>
+	 
+	</body>
+
+	<script src="../js/urlApi/api.js"></script>
+	<script src="../js/common/common.js"></script>
+	<script src="../js/login/error.js"></script>
+
+</html>

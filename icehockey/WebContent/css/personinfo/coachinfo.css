@@ -1,0 +1,230 @@
+@charset "utf-8";
+body{
+	
+	background:url(../../images/lock-screen-background.png) center center no-repeat;
+	
+	
+	background-size: 10000px,10000px;
+	height: 100%;
+	
+}
+#divcs1{
+	display: flex;
+	-webkit-flex-direction: column;
+	color:white;
+	
+	position:absolute;
+	left:40%;
+	top:10%;
+	
+	
+}
+.list{
+	background: transparent;
+	width:100%;
+	
+	color:white;
+	list-style:none;
+	position:absolute;
+	
+	line-height: 2rem;
+	top:40%;
+	
+}
+input{
+	border:none;
+}
+
+.button_gear{
+	background:url(../../images/gear.png) center center no-repeat;
+	background-size:cover;
+	position:absolute;
+	left:20px;
+	top:10px;
+	width:30px;
+	height:30px;
+}
+.button_bell{
+	background:url(../../images/bell27.png) center center no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:10px;
+	right:20px;
+	width:30px;
+	height:30px;
+}
+.button_coach{
+	background:url(../../images/man.png) center center no-repeat;
+	background-size:cover;
+	position:absolute;
+	top:40px;
+	left:155px;
+	width:80px;
+	height:80px;
+	
+}
+.button_invite{
+	color:white;
+	border:none;
+	background:transparent;
+	position:absolute;
+	left:0px;
+	width:30%;
+	top:215px;
+}
+.button_follow{
+	color:white;
+	border:none;
+	background:transparent;
+	position:absolute;
+	left:30%;
+	width:30%;
+	top:215px;
+}
+.button_fans{
+	color:white;
+	border:none;
+	background:transparent;
+	position:absolute;
+	left:70%;
+	top:215px;
+}
+.button_next1{
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:0.5rem;
+	right:100px;
+	
+}
+.button_next2{
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:2.5rem;
+	right:100px;
+}
+.button_next3{
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:4.5rem;
+	right:100px;
+	
+}
+.button_next4{
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:6.5rem;
+	right:100px;
+	
+}
+.button_next5{
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:8.5rem;
+	right:100px;
+	
+}.button_next6{
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:10.5rem;
+	right:100px;
+	
+}.button_next7{
+	background:url(../../images/next1.png) center center no-repeat;
+	background-size:cover;
+	position: absolute;
+	top:12.5rem;
+	right:100px;
+	
+}
+.div2cs{
+	background:url(../../images/ontime/ontime3.jpg);
+	background-size:cover;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:60%;
+	
+}
+.div_game{
+	display: none;
+}
+.div_game.active{
+	background: green;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+/*工具箱样式*/
+.div_tool{
+	display: none;
+}
+.div_tool.active{
+	background: green;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+/*社区样式*/
+.div_club{
+	display: none;
+}
+.div_club.active{
+	background: gold;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+/*消息样式*/
+.div_info{
+	display: none;
+}
+.div_info.active{
+	background: greenyellow;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+/*我的样式*/
+.div_mine{
+	display: none;
+}
+.div_mine.active{
+	background: red;
+	display: -webkit-flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+
+
+/*底部样式*/
+.main-bottom{
+	position: fixed;
+	top:90%;
+	left:0px;
+	bottom:0;
+	display: -webkit-flex;
+	font-size: 1rem;
+	height: 4.3rem;
+	background: rgb(216,215,213);
+	width: 100%;
+}
+.main-bottom div{
+	text-align: center;
+	padding: 0.3rem 0;
+}
+.main-bottom img{
+	width: 50%;
+	text-align: center;
+}
+.main-bottom span{
+	display: block;
+}

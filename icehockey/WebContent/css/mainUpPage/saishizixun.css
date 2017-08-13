@@ -1,0 +1,26 @@
+.saishizixun_body{
+	background-image: url(../../images/hobbyChoose/lock-screen-background.png);
+	background-size: 100% 100%;
+	height: 100%;
+	margin: 0 !important;
+
+}
+
+.saishizixun{
+	color: rgb(178,196,202);
+	text-align: center;
+	font-size: 3rem;
+	padding: 3rem 0;
+}
+.saishizixun a{
+	  display: block;
+	  width: 3rem;
+	  height: 3rem;
+	  float: left;	
+	  padding: 0 1rem;
+}
+
+.saishizixun img{
+	width: 2rem;
+	height: 2rem;
+}

@@ -1,0 +1,57 @@
+.ui-loader-default{ display:none}
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0} 
+
+.button_back{
+	background:url(../../images/back.png) center center no-repeat;
+	background-size:cover;
+	border:none;
+	width:20px;
+	height:20px;
+	position:fixed;
+	left:40px;
+	top:35px;
+}
+
+.header{
+	color: rgb(178,196,202);
+	padding: 2rem 0;
+}
+
+.header a{
+	  width:2.5rem;
+	  background: url(../../images/back.png) no-repeat;
+	  float: left;	
+	  padding: 1rem 0;
+	  margin-top: 0.4rem;
+	 
+}
+
+
+.header span{
+	/*display: block;/*默认属性值*/
+	font-weight: 600;
+	text-shadow:none !important;
+	font-size: 2.5rem;
+	margin-left: 25%;	
+	font-family: '宋体';
+	text-shadow:none !important;
+}
+
+.item{
+	font-family:"微软雅黑";
+	padding: 2rem;
+	margin:auto;
+	
+}
+
+.item span{
+	/*display: block;/*默认属性值*/
+	font-weight: 600;
+	text-shadow:none !important;
+	font-size: 2.5rem;
+	margin-left: 25%;	
+	font-family: '宋体';
+	color: #E8E8E8;
+	text-shadow:none !important;
+}

@@ -1,0 +1,16 @@
+.button_photo{
+	color:white;
+	background-color: transparent;
+	position:fixed;
+	border:none;
+	left:80px;
+	top:70px;
+}
+.button_vidoes{
+	color:white;
+	background-color: transparent;
+	position:fixed;
+	border:none;
+	left:50%;
+	top:70px;
+}

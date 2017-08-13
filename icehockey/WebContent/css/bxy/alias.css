@@ -1,0 +1,61 @@
+.main{
+	width:100%;
+}
+
+.uploadImg{ 
+	font-size:12px; 
+	overflow:hidden; 
+	position:relative;	
+}
+
+.image{
+	position: relative;
+	left:30%;
+	size:30%;
+}
+
+
+.touxiang{ 
+	position:absolute; 
+	z-index:100; 
+	margin-left:-180px; 
+	font-size:60px;
+	opacity:0;
+	filter:alpha(opacity=0); 
+	margin-top:-5px;
+}
+.name{
+	position: relative;
+	width:100%;
+	margin-top:2rem;
+	margin-left: -1rem;
+	font-size: 1.5rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	border-top: hidden;
+	border-bottom: hidden;
+	border-style:none;
+	filter:alpha(Opacity=80);
+	-moz-opacity:0.5;
+	opacity: 0.15;
+}
+
+.submitBtn{
+	background: transparent! important;
+	border-radius: 2rem !important;
+	border: solid #FFA657;
+	border-width: 0.1em;
+	width: 100%;
+	margin-top: 2.5rem;
+	height: 2rem;
+    min-height: 3em;
+    font-size: 0.8rem;
+    color: #fff;
+    text-shadow:none !important;
+    
+}
+.ui-loader-default{ display:none}
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0} 

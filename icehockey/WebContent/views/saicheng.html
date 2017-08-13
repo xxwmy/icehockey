@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="main_html">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="../css/toolbox/saicheng.css" />
+		<link rel="stylesheet" href="../css/mui.min.css"/>
+		<link rel="stylesheet" href="../css/jqueryMobile/jquery.mobile-1.4.5.min.css"/>
+		<script src="../js/mui.min.js"></script>
+		<script src="../js/jQuery/jquery-2.2.3.min.js" type="text/javascript"></script>
+		<script src="../js/jqueryMobile/jquery.mobile-1.4.5.min.js"></script>
+	</head>
+	<body>
+		<div data-role="page" class="main">
+			
+		  	<div  class="top">  
+	           <div onclick="office()" class="btn">
+	           		<span>
+	           		官方赛事	
+	           		</span>
+	           </div>
+	           <div onclick="club()" class="btn">
+	           		<span>
+	           		俱乐部赛事
+	           		</span>
+	           </div>
+	           <div onclick="individual()" class="btn">
+	           		<span>
+	           			个人赛事
+	           		</span>
+	           </div>
+	           
+	       </div>  
+		
+					
+			<div class="main-bottom" >
+				<div onclick="mainClick()">
+					<img src="../images/login/user-photo.png" />
+					<span>主页面</span>
+				</div>
+				<div onclick="saichengClick()">
+					<img src="../images/login/user-photo.png" />
+					<span>赛程</span>
+				</div>
+				<div onclick="gongjuClick()">
+					<img src="../images/login/user-photo.png" />
+					<span>工具箱</span>
+				</div>
+				<div onclick="clubClick()">
+					<img src="../images/login/user-photo.png" />
+					<span>社区</span>
+				</div>
+				<div onclick="infoClick()">
+					<img src="../images/login/user-photo.png" />
+					<span>消息</span>
+				</div>
+				<div onclick="mineClick()">
+					<img src="../images/login/user-photo.png" />
+					<span>我的</span>
+				</div>
+			</div>
+		</div>	
+		<script>
+			window.onload=function(){
+				loadCarousel();
+			}
+		</script>
+		<!--
+        	window.onload是一个事件，
+        	当文档加载完成之后就会触发该事件，可以为此事件注册事件处理函数，
+        	并将要执行的脚本代码放在事件处理函数中，于是就可以避免获取不到对象的情况。
+        -->
+		
+<script src="../js/toolbox/saicheng.js"></script>
+<script src="../js/pageJS/main.js"></script>
+<script src="../js/urlApi/api.js"></script>
+<script src="../js/common/common.js"></script>
+	</body>
+</html>

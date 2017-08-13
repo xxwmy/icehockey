@@ -1,0 +1,111 @@
+.ui-loader-default{ display:none}
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0} 
+
+.main{
+	background-image: url(../../images/hobbyChoose/lock-screen-background.png);
+	background-size: 100% 100%;
+	height: 100%;
+	margin: 0 !important;
+    display: flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	font-family: '宋体';
+	color: rgb(178,196,202);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	
+}
+
+.error-header{
+	color: rgb(178,196,202);
+padding: 2rem 0;
+}
+
+.error-header a{
+	  width:2.5rem;
+	  background: url(../../images/back.png) no-repeat;
+	  float: left;	
+	  padding: 1rem 0;
+	  margin-top: 0.4rem;
+	 
+}
+
+
+.error-header span{
+	/*display: block;/*默认属性值*/
+	font-weight: 600;
+	text-shadow:none !important;
+	font-size: 2.5rem;
+	margin-left: 25%;	
+	font-family: '宋体';
+	text-shadow:none !important;
+}
+
+/*请选择遇到的问题(必填)*/
+
+.content-error>div{
+  margin-top:2.5rem;
+  margin-left: 5rem;
+  font-size:2.2rem;
+  text-shadow:none !important;
+  color: rgb(178,196,202);
+}
+
+
+/*三个选项*/
+.problem{
+	margin-top: 5%;
+	padding-left: 8%;	
+	font-size:2.2rem;
+	color: rgb(178,196,202);
+	text-shadow:none !important;
+}
+
+.problem>div{
+	margin: 1.2rem;
+}
+
+
+/*请简要说明*/
+.errorMain{
+	margin-top:5%;
+	width:90%;
+	height-min: 4rem;
+	padding: 1rem 0;
+	margin:1.3rem;
+	border-radius: 2rem !important;
+	font-size: 2rem;
+	
+}
+
+/**/
+.phone{
+	width:90%;
+	margin-top:1rem;
+	padding: 1rem 0;
+	margin:1.3rem;
+	border-radius: 2rem !important;
+	font-size: 2rem;
+}
+
+.submitBtn{
+	background: transparent! important;
+	border-radius: 2rem !important;
+	width: 90%;
+	margin-left: 1rem;
+	margin-top: 3rem;
+	height: 3rem;
+}
+.error-submit{
+	background: transparent! important;
+    border-radius: 2rem !important;
+    width: 90%;
+    /* margin-left: 1rem; */
+    margin-top: 3rem;
+    height: 3rem;
+    min-height: 3.4em;
+    margin-left: 1rem;
+}
+
+
